@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+header {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.theme {
+    font-size: 22px; /* 放大两个字号 */
+    color: #888;
+    font-family: 'Chalkduster', sans-serif;
+}
+
+.quote-box {
+    text-align: center;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* 确保框架在网页正中央 */
+}
+
+.quote-frame {
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    width: 50%; /* 缩短框架宽度 */
+}
+
+.anime-quote-cn {
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 10px;
+}
+
+.anime-quote-en {
+    font-size: 14px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+footer {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.footer-text {
+    font-size: 10px;
+}
